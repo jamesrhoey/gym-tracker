@@ -18,6 +18,8 @@ const Navbar = () => {
         <div className="d-flex">
           <Link className="btn btn-warning me-2" to="/upload">📤 Upload Progress</Link>
           <Link className="btn btn-success me-2" to="/add-workout">🏋️ Add Workout</Link>
+          <Link className="btn btn-info me-2" to="/workout-history">📜 Workout History</Link>
+          <Link className="btn btn-light me-2" to="/profile">👤 Profile</Link>
           <button className="btn btn-danger" onClick={handleLogout}>Logout</button>
         </div>
       </div>
@@ -26,3 +28,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
