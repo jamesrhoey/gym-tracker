@@ -1,0 +1,22 @@
+
+> frontend@0.1.0 start
+> react-scripts start
+
+Starting the development server...
+
+(node:6987) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Compiled with warnings.
+
+./src/pages/Upload.js
+  Line 22:6:  React Hook useEffect has a missing dependency: 'fetchUploads'. Either include it or remove the dependency array             react-hooks/exhaustive-deps
+  Line 26:7:  Emojis should be wrapped in <span>, have role="img", and have an accessible description with aria-label or aria-labelledby  jsx-a11y/accessible-emoji
+
+./src/pages/Dashboard.js
+  Line 39:7:  Emojis should be wrapped in <span>, have role="img", and have an accessible description with aria-label or aria-labelledby  jsx-a11y/accessible-emoji
+  Line 43:9:  Emojis should be wrapped in <span>, have role="img", and have an accessible description with aria-label or aria-labelledby  jsx-a11y/accessible-emoji
+  Line 59:9:  Emojis should be wrapped in <span>, have role="img", and have an accessible description with aria-label or aria-labelledby  jsx-a11y/accessible-emoji
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
